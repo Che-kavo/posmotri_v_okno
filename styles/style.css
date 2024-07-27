@@ -82,6 +82,7 @@ ol {
 .search-form__fieldset-title {
   font-weight: 400;
   font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .search-form__label {
@@ -89,10 +90,9 @@ ol {
   align-items: center;
   cursor: pointer;
   gap: 5px;
-  padding-top: 5px;
 }
 
-.search-form__label:hover {
+.search-form__label-text:hover {
   text-decoration: underline 1px #FFF;
 }
 
@@ -203,8 +203,7 @@ ol {
 
 .content__list {
   position: relative;
-  overflow-y: scroll;
-  scrollbar-width: none;
+  overflow-y: auto;
   block-size: 298px;
 }
 
